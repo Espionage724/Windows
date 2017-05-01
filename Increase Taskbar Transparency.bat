@@ -1,0 +1,1 @@
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "UseOLEDTaskbarTransparency" /t "REG_DWORD" /d "1" /f

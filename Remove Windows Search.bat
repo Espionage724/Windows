@@ -1,0 +1,1 @@
+Dism /online /Disable-Feature /FeatureName:"SearchEngine-Client-Package" /Remove

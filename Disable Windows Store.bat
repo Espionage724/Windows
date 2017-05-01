@@ -1,0 +1,2 @@
+reg add "HKLM\SOFTWARE\Policies\Microsoft\WindowsStore" /v "RemoveWindowsStore" /t "REG_DWORD" /d "1" /f
+reg add "HKLM\SOFTWARE\Policies\Microsoft\WindowsStore" /v "DisableStoreApps" /t "REG_DWORD" /d "1" /f

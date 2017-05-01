@@ -1,0 +1,1 @@
+powercfg /H off
