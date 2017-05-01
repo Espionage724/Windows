@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "Microsoft-OneCore-RemoteDesktopServices" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Sensors" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Tethering" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-UserDataAccess" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Wallet" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-WebService" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-3DAudio" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-AppCompat" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-BITS" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Browser" /r

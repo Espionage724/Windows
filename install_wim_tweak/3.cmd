@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "Microsoft-Windows-Printing-XPSServices" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Xps" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Geolocation" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Compression" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-BusinessScanning" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-MediaPlayer" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-WindowsMediaPlayer" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-VirtualPC" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-VirtualXP" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-SystemRestore" /r

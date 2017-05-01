@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "HyperV" /r
+install_wim_tweak.exe /o /c "Microsoft-Hyper" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-HyperV" /r
+install_wim_tweak.exe /o /c "Media-FaceAnalysis" /r
+install_wim_tweak.exe /o /c "Media-Ocr" /r
+install_wim_tweak.exe /o /c "Microsoft-Mobile" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-AllJoyn" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-AllowTelemetry" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-BITS" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-CameraCaptureUI" /r

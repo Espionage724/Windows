@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Connectivity-NFC" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Connectivity-Serial" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-DebugCore" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-InkPlatform" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Maps" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Miracast" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Multimedia-CastingCommon" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Multimedia-CastingReceiver" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Multimedia-CastingTransmitter" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-NowPlayingSessionManager" /r

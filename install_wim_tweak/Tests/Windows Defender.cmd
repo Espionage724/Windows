@@ -1,0 +1,1 @@
+install_wim_tweak.exe /o /c "Windows-Defender" /r

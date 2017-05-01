@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "Microsoft-Windows-Internet" /r
+install_wim_tweak.exe /o /c "Adobe-Flash" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Cortana" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Search2" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-SearchEngine" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-RetailDemo" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-ContactSupport" /r
+install_wim_tweak.exe /o /c "Microsoft-PPIProjection" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Backup" /r
+install_wim_tweak.exe /o /c "Windows-Defender" /r

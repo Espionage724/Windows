@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "Microsoft-Windows-Store" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Common-Modem" /r
+install_wim_tweak.exe /o /c "DeviceAccess" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-ESENT" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-InternetExplorer" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Multimedia-MFPMP" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-DirectoryServices-ADAM" /r
+install_wim_tweak.exe /o /c "microsoft-windows-directoryservices-adam" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-WinRT" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-International" /r

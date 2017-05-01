@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "Microsoft-Windows-Shell-HomeGroup" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Network-Connectivity-Assistant" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-QuickAssist" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-RemoteAssistance" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-RemoteFX" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-RemoteDesktop" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-TabletPC" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-SNMP" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Skype" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Shell-SettingSync" /r

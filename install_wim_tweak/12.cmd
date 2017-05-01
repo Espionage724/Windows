@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "Microsoft-OneCore-EnergyEstimationEngine" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Networking-MobileBroadbandApi" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-PointOfService" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-ContentDeliveryManager" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-DataCenterBridging" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Links" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Migration" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-MobileCore" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-PeerDist" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-SnippingTool" /r

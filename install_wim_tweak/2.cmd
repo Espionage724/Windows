@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "Microsoft-Xbox" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-TroubleShooting" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-TroubleShooting" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-LanguageFeatures" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Legacy" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-SpeechComponents" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Gaming" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Indexer" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-BioEnrollment" /r
+install_wim_tweak.exe /o /c "Microsoft-OneCore-Biometrics" /r

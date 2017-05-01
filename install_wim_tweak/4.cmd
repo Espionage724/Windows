@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "Server-Help" /r
+install_wim_tweak.exe /o /c "Sensors-Universal" /r
+install_wim_tweak.exe /o /c "MultiPoint-Help" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-WordBreaking" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-WorkplaceJoin" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-WinSATMediaFiles" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-WinOcr" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-WebcamExperience" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Virtualization" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-TextPrediction" /r

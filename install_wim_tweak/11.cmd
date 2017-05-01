@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "Microsoft-Windows-PerformanceCounters" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-PeerToPeer" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-ParentalControls" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-OneDrive" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-OfflineFiles" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-NFS" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-NetworkDiagnostics" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Network-QoS" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-MRT10" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-MobileBroadband" /r

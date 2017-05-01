@@ -1,0 +1,10 @@
+install_wim_tweak.exe /o /c "Microsoft-Windows-Casting" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-CoreSystem-DebugTransports" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Help" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-WMIPerf" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-IIS-WebServer" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Killbits" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Lxss" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-Media-Streaming" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-MiracastView" /r
+install_wim_tweak.exe /o /c "Microsoft-Windows-MobilePC" /r
