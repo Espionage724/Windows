@@ -1,0 +1,2 @@
+powercfg /list
+pause

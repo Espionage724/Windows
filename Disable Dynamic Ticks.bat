@@ -1,1 +1,1 @@
-bcdedit /set "disabledynamictick" "Yes"
+bcdedit /set disabledynamictick yes

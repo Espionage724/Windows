@@ -1,0 +1,1 @@
+winsat.exe formal -restart clean
