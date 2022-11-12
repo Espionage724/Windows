@@ -1,0 +1,1 @@
+Set-ProcessMitigation -PolicyFilePath "XML/Project CARS 3.xml"

@@ -1,0 +1,1 @@
+Set-ProcessMitigation -PolicyFilePath "XML/Age of Empires II Definitive Edition.xml"

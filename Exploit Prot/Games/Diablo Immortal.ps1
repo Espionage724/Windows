@@ -1,0 +1,1 @@
+Set-ProcessMitigation -PolicyFilePath "XML/Diablo Immortal.xml"

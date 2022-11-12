@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MitigationPolicy>
+  <AppConfig Executable="C:\Program Files (x86)\Steam\steamapps\common\Guild Wars 2\Gw2-64.exe">
+    <DEP Enable="false" EmulateAtlThunks="false" />
+    <ASLR ForceRelocateImages="false" RequireInfo="false" BottomUp="false" HighEntropy="false" />
+    <StrictHandle Enable="false" />
+    <SystemCalls DisableWin32kSystemCalls="false" />
+    <ExtensionPoints DisableExtensionPoints="false" />
+    <DynamicCode BlockDynamicCode="false" AllowThreadsToOptOut="false" />
+    <ControlFlowGuard Enable="false" SuppressExports="false" StrictControlFlowGuard="false" />
+    <SignedBinaries MicrosoftSignedOnly="false" AllowStoreSignedBinaries="false" EnforceModuleDependencySigning="false" />
+    <Fonts DisableNonSystemFonts="false" AuditOnly="false" />
+    <ImageLoad BlockRemoteImageLoads="false" BlockLowLabelImageLoads="false" />
+    <Payload EnableExportAddressFilter="false" EnableImportAddressFilter="false" EnableRopStackPivot="false" EnableRopCallerCheck="false" EnableRopSimExec="false" />
+    <SEHOP Enable="false" TelemetryOnly="false" />
+    <Heap TerminateOnError="false" />
+    <ChildProcess DisallowChildProcessCreation="false" />
+    <UserShadowStack UserShadowStack="false" UserShadowStackStrictMode="false" />
+  </AppConfig>
+</MitigationPolicy>

@@ -1,0 +1,1 @@
+Set-ProcessMitigation -PolicyFilePath "XML/Horizon Zero Dawn.xml"

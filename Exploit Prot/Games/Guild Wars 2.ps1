@@ -1,0 +1,1 @@
+Set-ProcessMitigation -PolicyFilePath "XML/Guild Wars 2.xml"

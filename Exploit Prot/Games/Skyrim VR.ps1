@@ -1,0 +1,1 @@
+Set-ProcessMitigation -PolicyFilePath "XML/Skyrim VR.xml"
