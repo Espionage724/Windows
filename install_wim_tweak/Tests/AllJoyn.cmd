@@ -1,1 +1,0 @@
-install_wim_tweak.exe /o /c "Microsoft-OneCore-AllJoyn" /r
