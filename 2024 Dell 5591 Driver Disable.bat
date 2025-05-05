@@ -1,5 +1,4 @@
 :: Dell Latitude 5591
-:: 2024/05/19
 
 :: Initial
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions" /v "DenyDeviceIDs" /t "REG_DWORD" /d "1" /f
