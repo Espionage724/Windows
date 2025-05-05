@@ -1,6 +1,8 @@
-taskkill /f /im explorer.exe
-timeout 2 /nobreak>nul
-DEL /F /S /Q /A %LocalAppData%\Microsoft\Windows\Explorer\*.db
-DEL /F /S /Q /A %userprofile%\AppData\Local\IconCache.db
-timeout 2 /nobreak>nul
-start explorer.exe
+TASKKILL /F /IM "explorer.exe"
+TIMEOUT /NOBREAK /T "2"
+DEL /F /Q "%LocalAppData%\Microsoft\Windows\Explorer\"*".db"
+DEL /F /Q "%UserProfile%\AppData\Local\IconCache.db"
+TIMEOUT /NOBREAK /T "2"
+START explorer.exe
+
+:: End
