@@ -15,9 +15,11 @@
 :: Volume Shadow Copy
 "%SystemRoot%\System32\vssadmin.exe" Delete Shadows /All
 
+PAUSE
+
 :: Defrag/Trim
 "%SystemRoot%\System32\Defrag.exe" /AllVolumes /Defrag /TierOptimize /SlabConsolidate /Retrim /Optimize /PrintProgress /Verbose /NormalPriority
 
-pause
+PAUSE
 
 :: End
