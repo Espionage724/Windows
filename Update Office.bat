@@ -1,0 +1,1 @@
+"%CommonProgramFiles%\microsoft shared\ClickToRun\OfficeC2RClient.exe" /update "user" forceappshutdown="True" displaylevel="True"
