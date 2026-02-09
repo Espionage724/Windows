@@ -1,7 +1,6 @@
-@echo off
-
 DEL /Q "%UserProfile%\Downloads\UMAF_BETA.zip"
 "%SystemRoot%\System32\curl.exe" --output "%UserProfile%\Downloads\UMAF_BETA.zip" --location "https://github.com/DavidS95/Smokeless_UMAF/raw/refs/heads/main/UMAF_BETA.zip"
+
 RMDIR /S /Q "%UserProfile%\Downloads\UMAF_BETA"
 MKDIR "%UserProfile%\Downloads\UMAF_BETA"
 "%SystemRoot%\System32\tar.exe" xf "%UserProfile%\Downloads\UMAF_BETA.zip" -C "%UserProfile%\Downloads\UMAF_BETA"
@@ -16,6 +15,5 @@ MOVE /Y "%UserProfile%\Downloads\UMAF_BETA\EFI\Boot\umaf.efi" "Y:\EFI\Boot"
 
 "%SystemRoot%\System32\mountvol.exe" Y:\ /D
 
-PAUSE
-
-:: End
+DEL /Q "%UserProfile%\Downloads\UMAF_BETA.zip"
+RMDIR /S /Q "%UserProfile%\Downloads\UMAF_BETA"
