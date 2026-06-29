@@ -1,27 +1,41 @@
 :: Dell Latitude 5591
-:: 2026/01/15
+:: 2026/06/29
 
-:: Initial
-REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions" /v "DenyDeviceIDs" /t "REG_DWORD" /d "1" /f
-REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions" /v "DenyDeviceIDsRetroactive" /t "REG_DWORD" /d "0" /f
+@echo off
+
+CD "%Temp%"
+
+:: Intel Dynamic Tuning Generic Participant
+"%SystemRoot%\System32\reg.exe" ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\INT3403\Skin" /v "ConfigFlags" /t "REG_DWORD" /d "1" /f
+
+:: Intel Dynamic Tuning Generic Participant
+"%SystemRoot%\System32\reg.exe" ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\INT3403\NGFF" /v "ConfigFlags" /t "REG_DWORD" /d "1" /f
+
+:: Intel Dynamic Tuning Generic Participant
+"%SystemRoot%\System32\reg.exe" ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\INT3403\TMEM" /v "ConfigFlags" /t "REG_DWORD" /d "1" /f
+
+:: Intel Dynamic Tuning Manager
+"%SystemRoot%\System32\reg.exe" ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\INT3400\2&daba3ff&1" /v "ConfigFlags" /t "REG_DWORD" /d "1" /f
+
+:: Intel Dynamic Tuning Processor Participant
+"%SystemRoot%\System32\reg.exe" ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\PCI\VEN_8086&DEV_1903&SUBSYS_08191028&REV_07\3&11583659&1&20" /v "ConfigFlags" /t "REG_DWORD" /d "1" /f
+
+:: Intel Dynamic Tuning service
+"%SystemRoot%\System32\sc.exe" stop "esifsvc"
+"%SystemRoot%\System32\sc.exe" config "esifsvc" "start=disabled"
 
 :: Dell Touchpad
-:: AlpsAlpine Virtual HID Device
-REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs" /v "1" /t "REG_SZ" /d "HID\VEN_DELL&DEV_0819&Col03" /f
-REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs" /v "2" /t "REG_SZ" /d "HID\Vid_044E&Pid_1212&Col01" /f
-"sc.exe" stop "ApHidMonitorService" & "sc.exe" config "ApHidMonitorService" "start=disabled"
+"%SystemRoot%\System32\reg.exe" ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\HID\DELL0819&Col03\5&179f3b29&0&0002" /v "ConfigFlags" /t "REG_DWORD" /d "1" /f
 
-:: Intel(R) Dynamic Tuning
-REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs" /v "3" /t "REG_SZ" /d "ACPI\VEN_INT&DEV_3400" /f
-REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs" /v "4" /t "REG_SZ" /d "PCI\VEN_8086&DEV_1903&SUBSYS_08191028&REV_07" /f
-REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs" /v "5" /t "REG_SZ" /d "ACPI\VEN_INT&DEV_3403" /f
-"sc.exe" stop "esifsvc" & "sc.exe" config "esifsvc" "start=disabled"
+:: AlpsAlpine HID Monitor Service
+"%SystemRoot%\System32\sc.exe" stop "ApHidMonitorService"
+"%SystemRoot%\System32\sc.exe" config "ApHidMonitorService" "start=disabled"
 
-:: Intel(R) HID Event Filter
-REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs" /v "6" /t "REG_SZ" /d "ACPI\VEN_INT&DEV_33D5" /f
+:: Intel 300 Series Chipset Family SATA AHCI Controller
+"%SystemRoot%\System32\reg.exe" ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\PCI\VEN_8086&DEV_A353&SUBSYS_08191028&REV_10\3&11583659&1&B8" /v "ConfigFlags" /t "REG_DWORD" /d "1" /f
 
-:: Intel(R) 300 Series Chipset Family SATA AHCI Controller
-REG ADD "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\DenyDeviceIDs" /v "7" /t "REG_SZ" /d "PCI\VEN_8086&DEV_A353&SUBSYS_08191028&REV_10" /f
-"sc.exe" stop "RstMwService" & "sc.exe" config "RstMwService" "start=disabled"
+:: Intel Storage Middleware Service
+"%SystemRoot%\System32\sc.exe" stop "RstMwService"
+"%SystemRoot%\System32\sc.exe" config "RstMwService" "start=disabled"
 
 :: End
